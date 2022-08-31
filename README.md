@@ -1,0 +1,1 @@
+Contains shell basics projects
