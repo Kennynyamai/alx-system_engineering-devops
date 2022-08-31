@@ -1,1 +1,1 @@
-Contains shell basics projects
+A file that displays content list
