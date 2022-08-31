@@ -1,1 +1,1 @@
-absolute pathname of current working directory
+File to display contents of current directory
