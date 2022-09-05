@@ -1,0 +1,2 @@
+#!/bin/bash
+cat sample_file.txt | awk 'NR==3'
