@@ -1,0 +1,1 @@
+all about SSH and config files
