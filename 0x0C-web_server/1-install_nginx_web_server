@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# installing nginx on a webserver
+
+sudo apt-get update
+sudo apt-get install -y nginx
+sudo service start
+sudo touch /var/www/html/index.html
+echo "Hello World!" > /var/www/html/index.html
+echo "server {
+     listen      80 default_server;
+     listen      [::]:80 default_server;
+     root        /var/www/html;
+     index       index.html;
+}
+" > /etc/nginx/ngix.conf
+
+service nginx restart
+
